@@ -1,5 +1,3 @@
-// Image switcher code
-
 let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -10,8 +8,6 @@ myImage.onclick = function() {
     myImage.setAttribute ('src','images/firefox-icon.png');
   }
 }
-
-// Personalized welcome message code
 
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
